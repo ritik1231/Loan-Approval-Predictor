@@ -3,7 +3,20 @@ This notebook explores a loan approval dataset and builds predictive models to a
 
 ## Dataset
 
-The dataset contains information about loan applicants, including their demographics, financial status, and loan details. 
+The dataset contains information about loan applicants, including their demographics, financial status, and loan details. Features include:
+
+* **Gender:** Male/Female
+* **Married:** Yes/No
+* **Dependents:** Number of dependents
+* **Education:** Graduate/Not Graduate
+* **Self_Employed:** Yes/No
+* **ApplicantIncome:** Applicant's income
+* **CoapplicantIncome:** Co-applicant's income
+* **LoanAmount:** Loan amount applied for
+* **Loan_Amount_Term:** Loan term in months
+* **Credit_History:** Credit history (0 or 1)
+* **Property_Area:** Urban/Semiurban/Rural
+* **Loan_Status:** Loan approval status (Y/N) - Target variable
 
 ## Steps
 
